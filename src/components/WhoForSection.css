@@ -1,0 +1,126 @@
+.who-for-section {
+  background-color: #FFFFFF;
+  padding: 4rem 1.5rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.who-for-panel {
+  max-width: 1350px;
+  margin: 0 auto;
+  background-color: #F9FAFB;
+  border-radius: 20px;
+  padding: 32px;
+}
+
+.who-for-header {
+  margin-bottom: 2.5rem;
+}
+
+.who-for-header .section-label {
+  color: #00BBA7;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.who-for-header h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.who-for-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 292px);
+  gap: 16px;
+  overflow-x: auto;
+}
+
+@media (max-width: 1024px) {
+  .who-for-grid {
+    grid-template-columns: repeat(4, 292px);
+  }
+}
+
+.who-for-grid::-webkit-scrollbar {
+  height: 6px;
+}
+
+.who-for-grid::-webkit-scrollbar-thumb {
+  background-color: rgba(148, 163, 184, 0.45);
+  border-radius: 999px;
+}
+
+.who-for-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 16px;
+  width: 292px;
+  height: 382px;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.card-icon-inner {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.31px;
+  color: #101828;
+  margin: 0;
+}
+
+.card-age {
+  color: #99A1AF;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0;
+  margin: 0 0 16px 0;
+}
+
+.card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #4A5565;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.15px;
+}
+
+.card-list li {
+  position: relative;
+  padding-left: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 4px;
+  height: 4px;
+  border-radius: 999px;
+  background-color: #CBD5F5;
+}

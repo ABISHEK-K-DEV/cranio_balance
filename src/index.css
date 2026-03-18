@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@400;500;700&family=Sora:wght@400;500;600;700&display=swap');
+
+:root {
+	font-family: 'Inter', sans-serif;
+	--color-primary-dark: #088278;
+	--color-primary: #00bba7;
+	--color-primary-light: #00d5be;
+	--color-primary-lighter: #46ecd5;
+	--color-primary-border: #96f7e4;
+	--color-primary-bg: #f0fdfa;
+	--color-accent-orange: #ff9500;
+	--color-accent-yellow: #ffb900;
+	--color-accent-purple: #615fff;
+	--color-accent-violet: #8e51ff;
+	--color-text-primary: #101828;
+	--color-text-secondary: #4a5565;
+	--color-text-tertiary: #6a7282;
+	--color-text-muted: #99a1af;
+	--color-border: #d1d5dc;
+	--color-border-light: #e5e7eb;
+	--color-background: #f9fafb;
+	--color-white: #ffffff;
+	--color-whatsapp: #25d366;
+	color: var(--color-text-primary);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+	line-height: 1.4;
+	background: var(--color-background);
+	color: var(--color-text-primary);
+}
+
+.container {
+	width: min(1350px, calc(100% - 2rem));
+	margin-inline: auto;
+}
+

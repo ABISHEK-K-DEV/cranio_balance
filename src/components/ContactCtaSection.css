@@ -1,0 +1,200 @@
+.contact-cta__button--primary .contact-cta__button-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 2px;
+}
+.contact-cta {
+  margin-top: 0;
+  background-color: #005f5a;
+  background-image: none;
+  min-height: 434px;
+  padding: 54px 0 40px;
+}
+
+.contact-cta__inner {
+  min-height: calc(434px - 94px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-cta__eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #00D5BE;
+}
+
+.contact-cta__title {
+  margin: 14px 0 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -0.85px;
+  color: #ffffff;
+}
+
+.contact-cta__description {
+  margin: 16px 0 0;
+  max-width: 72ch;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.8px;
+  letter-spacing: -0.15px;
+  color: rgba(70, 236, 213, 0.8);
+}
+
+.contact-cta__actions {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-cta__button {
+  height: 40px;
+  border-radius: 999px;
+  padding: 0 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.contact-cta__button--primary {
+  background: #ffffff;
+  color: #005F5A;
+}
+
+
+
+.contact-cta__button--outline {
+  border: 2px solid rgba(255,255,255,0.3);
+  background: transparent;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  border-radius: 999px;
+  padding: 0 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-cta__button--outline .contact-cta__button-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-cta__button-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.contact-cta__meta {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.contact-cta__meta a:not(.wa-link) {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  color: #00d5be;
+}
+
+.contact-cta__meta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-cta__meta .wa-link {
+  text-decoration: none;
+}
+
+.contact-cta__dot-separator {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 8px;
+  height: 8px;
+}
+
+.contact-cta__dot-separator img {
+  width: 6px;
+  height: 6px;
+  display: block;
+}
+
+.contact-cta__meta-icon {
+  width: 14px;
+  height: 14px;
+  display: block;
+  flex: 0 0 14px;
+}
+
+@media (max-width: 768px) {
+  .contact-cta {
+    min-height: 0;
+    padding: 44px 0 34px;
+  }
+
+  .contact-cta__inner {
+    min-height: 0;
+  }
+
+  .contact-cta__title {
+    font-size: clamp(1.6rem, 7.8vw, 2.25rem);
+  }
+
+  .contact-cta__actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact-cta__button {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .contact-cta__meta {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contact-cta__dot-separator {
+    display: none;
+  }
+}
