@@ -3,10 +3,10 @@ import './TestimonialSection.css';
 import playIcon from '../assets/play-icon.svg';
 import quotesIcon from '../assets/quotes-icon.svg';
 import reviewStarIcon from '../assets/review-star-icon.svg';
-import Christa from '../assets/Videos/CristaHolzl.mp4';
-import Manuela from '../assets/Videos/manuela.mp4';
-import Diana from '../assets/Videos/DianaMogytych.mp4';
-import Robert from '../assets/Videos/RobertHolzl.mp4';
+// import Christa from '../assets/Videos/CristaHolzl.mp4';
+// import Manuela from '../assets/Videos/manuela.mp4';
+// import Diana from '../assets/Videos/DianaMogytych.mp4';
+// import Robert from '../assets/Videos/RobertHolzl.mp4';
 
 const TestimonialSection = () => {
   const trackRef = useRef(null);
@@ -74,7 +74,7 @@ const TestimonialSection = () => {
       textQuote: "Am Anfang war ich sehr skeptisch – doch schon nach wenigen Minuten verflog die Skepsis und verwandelte sich in wachsende Begeisterung, weil es einfach so gut tut. Ich vergleiche es mit einer Phase kurz vor dem Einschlafen – irrsinnig entspannt.",
       textTag: "Chronische Schmerzen",
       bgGradient: "linear-gradient(to bottom, #8a8a8a, #2c2c2c)",
-      videoSrc: Diana
+      // videoSrc: Diana
     },
     {
       id: 2,
@@ -86,7 +86,7 @@ const TestimonialSection = () => {
       textQuote: "Nach drei Sitzungen sind meine Schulter-, Knie- und Rückenschmerzen wie von Zauberhand verschwunden.",
       textTag: "Schulter- und Knieschmerzen",
       bgGradient: "linear-gradient(to bottom, #d5a3b2, #4a3b42)",
-      videoSrc: Christa
+      // videoSrc: Christa
     },
     {
       id: 3,
@@ -98,7 +98,7 @@ const TestimonialSection = () => {
       textQuote: "Nach drei Monaten regelmäßiger craniosacraler Arbeit kann ich ein paar Schritte machen, alleine aus dem Rollstuhl aufstehen und schon einige Sekunden frei stehen. Vor der Therapie war das nicht möglich.",
       textTag: "Regeneration nach Unfall",
       bgGradient: "linear-gradient(to bottom, #a3b2d5, #3b424a)",
-      videoSrc: Manuela
+      // videoSrc: Manuela
     },
     {
       id: 4,
@@ -110,7 +110,7 @@ const TestimonialSection = () => {
       textQuote: "Am Anfang war ich sehr skeptisch – doch schon nach wenigen Minuten verflog die Skepsis und verwandelte sich in wachsende Begeisterung, weil es einfach so gut tut. Ich vergleiche es mit einer Phase kurz vor dem Einschlafen – irrsinnig entspannt.",
       textTag: "Chronische Schmerzen",
       bgGradient: "linear-gradient(to bottom, #b2d5a3, #424a3b)",
-      videoSrc: Robert
+      // videoSrc: Robert
     }
   ];
 
